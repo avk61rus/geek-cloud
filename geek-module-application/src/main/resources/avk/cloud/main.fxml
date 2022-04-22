@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-        <?import javafx.scene.control.ListView?>
-        <?import javafx.scene.control.TextField?>
-        <?import javafx.scene.layout.AnchorPane?>
-<AnchorPane fx:controller="avk.cloud.controllers.MainController" prefHeight="558.0"
-            prefWidth="356.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
-<ListView fx:id="view" layoutX="14.0" layoutY="14.0" prefHeight="496.0" prefWidth="327.0"/>
-<TextField fx:id="input" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="510.0" prefHeight="36.0" prefWidth="327.0"/>
+<AnchorPane prefHeight="558.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="avk.cloud.controllers.MainController">
+<ListView fx:id="view" layoutX="14.0" layoutY="14.0" prefHeight="496.0" prefWidth="327.0" />
+<TextField fx:id="input" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="510.0" prefHeight="36.0" prefWidth="327.0" />
+   <Button layoutX="300.0" layoutY="516.0" mnemonicParsing="false" text="OK" />
 </AnchorPane>

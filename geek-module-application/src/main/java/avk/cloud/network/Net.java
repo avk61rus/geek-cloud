@@ -26,6 +26,14 @@ public class Net {
         return is.readLong();
     }
 
+    public  DataOutputStream getOutputStream() {
+        return os;
+    }
+
+    public DataInputStream getDataInputStream() {
+        return is;
+    }
+
     public String readUtf() throws IOException {
         return is.readUTF();
     }
