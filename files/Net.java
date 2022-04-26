@@ -1,4 +1,4 @@
-package avk.cloud.network;
+package com.geekbrains.cloud.network;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -24,14 +24,6 @@ public class Net {
 
     public Long readLong() throws IOException {
         return is.readLong();
-    }
-
-    public  DataOutputStream getOutputStream() {
-        return os;
-    }
-
-    public DataInputStream getDataInputStream() {
-        return is;
     }
 
     public String readUtf() throws IOException {
