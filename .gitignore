@@ -1,4 +1,5 @@
 .idea
-
-# Project exclude paths
-/geek-module-application/target/
+geek-cloud-server/target
+geek-cloud-core/target
+geek-cloud-application/target
+geek-cloud.iml
